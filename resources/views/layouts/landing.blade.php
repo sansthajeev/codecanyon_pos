@@ -2,6 +2,15 @@
 <html lang="{{ session('locale') ?? global_setting()->locale }}">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VVTWZK5YC7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VVTWZK5YC7');
+</script>
     <link rel="manifest" href="{{ asset('manifest.json') }}" crossorigin="use-credentials">
     <meta name="theme-color" content="#ffffff">
     <meta charset="utf-8">
